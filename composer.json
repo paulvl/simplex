@@ -1,0 +1,21 @@
+{
+    "name": "paulvl/simplex",
+    "description": "Usefull Laravel stuff for fast development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Vidal",
+            "email": "i@paulvl.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*|5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simplex\\": "src/"
+        }
+    }
+}
